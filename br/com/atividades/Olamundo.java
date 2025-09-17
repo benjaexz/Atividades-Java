@@ -2,12 +2,24 @@ package br.com.atividades;
 
 public class Olamundo {
     public static void main(String[] args) {
-        String nome = "Java";
+        String nome = "Jacob";
+        int idade = 20;
+        float altura = 1.70f;
+        double altura2 = 1.75;
+        boolean estaVivo = true;
 
-        System.out.println(nome);
+        var variavel = "Jacob";
 
-        nome = "Cleyson";
+        System.out.println(idade);
+        System.err.println(altura);
+        System.out.println(altura2);
+        System.out.println(estaVivo);
+        System.out.println(variavel);
+        System.out.println("é o cara!!!");
 
-       System.out.println("Ola, mundo bem vindoo");
+        final var CONSTANTE = "Jacob";
+
+        System.out.println(CONSTANTE);
+    
     }
 }
