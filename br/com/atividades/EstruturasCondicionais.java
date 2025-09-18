@@ -30,12 +30,12 @@ public class EstruturasCondicionais {
             }
 
         //enhanced switch
-        var mesDoano =2;
+        var mesDoano =10;
         switch (mesDoano){
             case 1 ->System.out.println("Janeiro");
             case 2 ->System.out.println("Fevereiro");
             case 3 ->System.out.println("Março");
-            default -> System.out.println("Mês invalido");
+            default->System.out.println("Mês invalido");
         }
     }
 }
