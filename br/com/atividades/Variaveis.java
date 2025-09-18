@@ -1,6 +1,6 @@
 package br.com.atividades;
 
-public class Olamundo {
+public class Variaveis {
     public static void main(String[] args) {
         String nome = "Jacob";
         int idade = 20;
@@ -20,6 +20,5 @@ public class Olamundo {
         final var CONSTANTE = "Jacob";
 
         System.out.println(CONSTANTE);
-    
     }
 }
